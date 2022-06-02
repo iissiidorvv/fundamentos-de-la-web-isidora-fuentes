@@ -17,6 +17,15 @@ Los elementos de esta clase son:
 - Listas y tablas
 - Imagenes y videos 
 
-¿Que es un encabezado?
-- un encabezado es una etiqueta para titulos, textos y subtitulos 
----Los encabezados estan en:  C:\proyectos\fundamentos-de-la-web-isidora-fuentes\encabezado.html---
+¿QUE ES UN ENCABEZADO?
+- Un encabezado es una etiqueta para titulos, textos y subtitulos.
+- Parrafos: es donde puedes colocar informacion.
+---\encabezado.html---
+¿QUE ES UN VINCULO?
+- Son estiquetas de anclaje, que se utilizan para navegar en otras paginas.
+---\vinculos.html---
+
+¿QUE ES UN EMPHASIS Y STRONG?
+- El strong: resalta la letra
+-El emphasis hace emphasis una palabra y la hace cursiva 
+---\EMPHASIS Y STRONG.HTML---
