@@ -16,3 +16,7 @@ Los elementos de esta clase son:
 - Elementos de texto
 - Listas y tablas
 - Imagenes y videos 
+
+¿Que es un encabezado?
+- un encabezado es una etiqueta para titulos, textos y subtitulos 
+---Los encabezados estan en:  C:\proyectos\fundamentos-de-la-web-isidora-fuentes\encabezado.html---
