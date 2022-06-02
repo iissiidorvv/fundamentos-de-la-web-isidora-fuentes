@@ -10,3 +10,10 @@ la respuesta son las respuestas a una solicitud de un cliente (se refiere a una 
 
 
 esto es un cambio.
+
+CLASE 02/06/2022
+Los elementos de esta clase son:
+- Elementos de texto
+- Listas y tablas
+- Imagenes y videos 
+-
