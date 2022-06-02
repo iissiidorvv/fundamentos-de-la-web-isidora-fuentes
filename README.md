@@ -16,4 +16,3 @@ Los elementos de esta clase son:
 - Elementos de texto
 - Listas y tablas
 - Imagenes y videos 
--
