@@ -43,9 +43,11 @@ Los elementos de esta clase son:
 ---\tabla.html---
 
 ¿QUE ES UNA IMAGEN?
+- Es una etiqueta que nos permite poner una imagen.
 
 ---\imagenes.html---
 
 ¿QUE ES UN VIDEO?
+- Es una etiqueta que nos permite insertar enlaces de un video.
 
 ---\videos.html---
