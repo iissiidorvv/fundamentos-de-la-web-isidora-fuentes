@@ -34,11 +34,11 @@ Los elementos de esta clase son:
 - La sintaxis es que dentro de una etiqueta puedo crear muchas etiquetas.
 
 ¿QUE ES UNA LISTA Y TABLA?
-- La lista: ordena lo que tenemos que hacer entre las etiquetas."<li>"
-- Lista con nuemeros: enumera la lista."<ol>"
+- La lista: ordena lo que tenemos que hacer entre las etiquetas.
+- Lista con nuemeros: enumera la lista.
 ---\LISTA.HTML---
  
-- La tabla: es para tener un orden estructurado de columnas y filas."<table>"<tr><th><td>"
+- La tabla: es para tener un orden estructurado de columnas y filas.
 
 ---\tabla.html---
 
