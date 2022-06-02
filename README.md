@@ -28,4 +28,24 @@ Los elementos de esta clase son:
 ¿QUE ES UN EMPHASIS Y STRONG?
 - El strong: resalta la letra
 -El emphasis hace emphasis una palabra y la hace cursiva 
----\EMPHASIS Y STRONG.HTML---
+---0\emphasis y strong.html---
+
+¿QUE ES LA SINTAXIS?
+- La sintaxis es que dentro de una etiqueta puedo crear muchas etiquetas.
+
+¿QUE ES UNA LISTA Y TABLA?
+- La lista: ordena lo que tenemos que hacer entre las etiquetas."<li>"
+- Lista con nuemeros: enumera la lista."<ol>"
+---\LISTA.HTML---
+ 
+- La tabla: es para tener un orden estructurado de columnas y filas."<table>"<tr><th><td>"
+
+---\tabla.html---
+
+¿QUE ES UNA IMAGEN?
+
+---\imagenes.html---
+
+¿QUE ES UN VIDEO?
+
+---\videos.html---
