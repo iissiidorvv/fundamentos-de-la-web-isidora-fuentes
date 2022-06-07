@@ -110,5 +110,9 @@ FORMULARIOS
 - <a href= "FORMULARIOS\radio.html">radio </a>
 - <a href= "FORMULARIOS\seleccionar.html">seleccionar</a>
 
+REALIZAR LA ACTIVIDAD DE FORMULARIOS:
+- <a href= "formulario-de-registro.html">actividad</a>
+
+
 
 
