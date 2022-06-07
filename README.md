@@ -20,7 +20,7 @@ Los elementos de esta clase son:
 ¿QUE ES UN ENCABEZADO?
 - Un encabezado es una etiqueta para titulos, textos y subtitulos.
 - Parrafos: es donde puedes colocar informacion.
-<a href= "C:\proyectos\fundamentos-de-la-web-isidora-fuentes\ELEMENTOS-DE-TEXTOS">
+<a href= "C:\proyectos\fundamentos-de-la-web-isidora-fuentes\ELEMENTOS-DE-TEXTOS">encabezado</a>
 ---\encabezado.html---
 
 ¿QUE ES UN VINCULO?
@@ -77,7 +77,7 @@ Icon
 Para proporcionar un hipervínculo a la URL definida en el atributo href
 
 PSC
-<a href = "C:\proyectos\fundamentos-de-la-web-isidora-fuentes\psc.html">
+<a href = "C:\proyectos\fundamentos-de-la-web-isidora-fuentes\psc.html">encabezado</a>
 
 Del HTML anterior puedes inferir:
 
@@ -95,3 +95,20 @@ y:
 - p> tiene un contenido (texto): "Ahora, una etiqueta de párrafo"
 - h1> y -p son hermanos
 - head> y -body son hermanos
+
+FORMULARIOS
+- Un formulario HTML es una sección de un documento que contiene contenido normal, código, elementos especiales llamados controles (casillas de verificación (checkboxes), radiobotones (radio buttons), menúes, etc.), y rótulos (labels) en esos controles.
+
+- <a href="FORMULARIOS\area-de-texto.html">area de textos</a>
+- <a href="FORMULARIOS\casilla.html">casilla</a>
+- <a href="FORMULARIOS\color.html">color</a>
+- <a href= "FORMULARIOS\contraseñas.html">contraseñas</a>
+- <a href= "FORMULARIOS\entrada-comun.html">entrada comun</a>
+- <a href= "FORMULARIOS\entradas-numericas.html">entrada numerica</a>
+- <a href= "FORMULARIOS\fecha.html">fecha</a>
+- <a href= "FORMULARIOS\formulario-tipico.html">formulario tipico</a>
+- <a href= "FORMULARIOS\radio.html">radio </a>
+- <a href= "FORMULARIOS\seleccionar.html">seleccionar</a>
+
+
+
