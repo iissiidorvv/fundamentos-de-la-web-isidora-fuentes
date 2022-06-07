@@ -73,3 +73,23 @@ Icon
 
 Icon
 Para proporcionar un hipervínculo a la URL definida en el atributo href
+
+PSC
+<a href = "C:\proyectos\fundamentos-de-la-web-isidora-fuentes\psc.html">
+
+Del HTML anterior puedes inferir:
+
+<html> es el elemento raíz
+<html> no tiene padres
+<html> es el padre de <head> y <body>
+<head> es el primer hijo de <html>
+<body> es el último hijo de <html>
+y:
+
+<head> tiene un hijo: <title>
+<title> tiene un contenido (texto):  "¡Hola, mundo!"
+<body> tiene dos hijos: <h1> y <p>
+<h1> tiene un contenido (texto): "Aquí hay una etiqueta de encabezado"
+<p> tiene un contenido (texto): "Ahora, una etiqueta de párrafo"
+<h1> y <p> son hermanos
+<head> y <body> son hermanos
