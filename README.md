@@ -20,7 +20,9 @@ Los elementos de esta clase son:
 ¿QUE ES UN ENCABEZADO?
 - Un encabezado es una etiqueta para titulos, textos y subtitulos.
 - Parrafos: es donde puedes colocar informacion.
+<a href= "C:\proyectos\fundamentos-de-la-web-isidora-fuentes\ELEMENTOS-DE-TEXTOS">
 ---\encabezado.html---
+
 ¿QUE ES UN VINCULO?
 - Son estiquetas de anclaje, que se utilizan para navegar en otras paginas.
 ---\vinculos.html---
