@@ -76,6 +76,7 @@ Icon
 Icon
 Para proporcionar un hipervínculo a la URL definida en el atributo href
 
+clase 07/06/2022
 PSC
 <a href = "C:\proyectos\fundamentos-de-la-web-isidora-fuentes\psc.html">encabezado</a>
 
