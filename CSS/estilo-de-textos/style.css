@@ -20,9 +20,8 @@
 .titulo-3 {
     text-decoration: underline;
     text-align: right;
-    font-weight: bold;
     font-family: cursive;
-    background-color: blue;
+    background-color: rgb(100, 202, 220);
 }
 span{
     color: aliceblue;
