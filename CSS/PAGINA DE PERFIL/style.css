@@ -81,18 +81,22 @@ nav{
 }
 .top-nav{
     height: 40px;
-    background-color: #26a5bb;
+    background-color:black;
     display: flex;
     align-items: center;
     padding: 6px;
+    color: white;
 }
+
 .number-2{
     width: 20px;
     border-radius: 50%;
-    background-color: rgb();
+    background-color: rgb(112, 110, 112);
     display: flex;
     justify-content: center;
+    
 }
+
 .top-title{
     color: white;
     margin-left:15px;
