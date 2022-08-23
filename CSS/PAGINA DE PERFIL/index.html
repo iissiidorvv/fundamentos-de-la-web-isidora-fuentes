@@ -4,35 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="navegador">
-        <h1 class="titulo">profile</h1>
-        <ul class="nav-links">
-            <a href="#" class="b1">inicio</a>
-            <a href="#" class="active">my profile</a>
-            <a href="#" class="b1">encontrar conecciones</a>
-            <button class="btn">cerrar sesion</button>
-        </ul>
-    </div>
-    <div class="tarjeta">
-        <div class="content-1"></div>
-        <div class="icon"><img src="img/user-circle.png" alt="user-circle" width="100px"></div>
-        <div class="content-2">
-        <div class="name">Isidora Fuentes</div>
-        <div><img src="img/map-marker.png" alt=""width="30px">Seattle</div>
-        <div>Developer | Engineer | Problem Solver</div>
-        <div>Master of shadows and the internet</div>
-        <div><img src="img/gear.png" alt="gear" width="15px"><a href="">edit profile</a></div>
-    </div>
-    <div class="education">
-        <h2 class="titulo 2">education</h2>
-        <h2 class="subtitulo">Coding Dojo - full stack bootcamp</h2>
-        <p class="fecha">dec 2019 - mar 2020</p>
-        <p class="subtitulo-2">triple black belt in python, MERN, and C#</p>
-        
-    </div>
+    <nav class="navbar">
+        <div class="profile">
+            <ul>
+                <li class="tittle">Profile</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">My Profile</a></li>
+                <li><a href="">Find Connections</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="#"><button class="button">Sing out</button></a>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="col-1">
+            <div class="card">
+                <div class="content-top-side"></div>
+                <div class="icon-card"> <img src="img/img/user-circle.png" alt="user-circle" width="60px"></div>
+                <div class="content-button-side">
+                    <div class="tittle">Isidora Fuentes</div>
+                    <div class="map">
+                        <img src="img/img/map-marker.png" alt="map-marker" width="10px">
+                        <p>Seatle</p>
+                    </div>
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the internet!</p>
+                    <div class="map">
+                        <img src="img/img/gear.png" alt="gear" width="15px">
+                        <a href="">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                <div class="top-nav">
+                    <div class="top-tittle">Education</div>
+                </div>
+                <div class="content">
+                    <div class="first-letter">Coding Dojo - Full Stack Bootcamp</div>
+                    <div class="second-letter">Jan 2022 - Mar 2022</div>
+                    <div class="third-letter">Triple black belt in Python, Mern, and C# ...</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="connection-request">
+                <div class="top-nav">
+                    <div class="number-2">2</div>
+                    <div class="top-title">Connection Request</div>
+                </div>
+                <div class="content">
+                    <div class="content-1">
+                        <div class="icons-small"><img src="img/icon-user.png" alt="todd-s" class="border-image">Todd E</div>
+                        <div class="icons-small"><img src="img/accept-circle.png" alt="accept-circle"><img src="img/close-circle.png" alt="close-circle"></div>
+                    </div>
+                    <div class="content-1">
+                        <div class="icons-small"><img src="img/icon-user.png" alt="phil-s" class="border-image">Phil K</div>
+                        <div class="icons-small"><img src="img/accept-circle.png" alt="accept-circle"><img src="img/close-circle.png" alt="close-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="connection-request">
+                <div class="top-nav">
+                    <div class="number-500">500+</div>
+                    <div class="top-title">Your Connections</div>
+                </div>
+                <div class="content-conections">
+                    <div class="names">
+                        <div class="content-1">
+                            <div class="icons-small"><img src="img/icon-user.png" alt="adrien-s" class="border-image">Adrien D</div>
+                        </div>
+                        <div class="content-1">
+                            <div class="icons-small"><img src="img/icon-user.png" alt="anne-s" class="border-image">Anne J</div>
+                        </div>
+                        <div class="content-1">
+                            <div class="icons-small"><img src="img/icon-user.png" alt="alayne-s" class="border-image">Alayne T</div>
+                        </div>
+                        <div class="content-1">
+                            <div class="icons-small"><img src="img/icon-user.png" alt="arry-s" class="border-image">Arry y</div>
+                        </div>
+                        <div class="view-more">
+                            <a href="#">view more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

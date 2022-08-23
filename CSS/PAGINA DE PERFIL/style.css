@@ -1,53 +1,130 @@
-.nav {
-    background-color: #4d4c4c;
-    display: flex;
-    height: 80px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    justify-content: space-between;
-    max-width: 992px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: azure;
+}
+nav{
+    max-width: 700px;
     margin: 0 auto;
 }
-.nav-title {
-    font-family:'Courier New', Courier, monospace;
-    color: #fafafa;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 80px;
-  }
-    
-.nav-links {
+.navbar{
+    background-color: black;
+    color: white;
     display: flex;
-    text-align: right;
-    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.main{
+    width: 700px;
+    margin: 40px auto;
+    height: 500px;
+    display: flex;
+}
+.col-1{
+    flex: 1.7;
+    display: flex;
+    flex-direction: column;
+}
+.col-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.education{
+    flex: 1;
+    border: 5px solid rgb(0, 0, 0);
+}
+.education > .content {
+    margin: 5px;
+}
+.connection-request{
+    border: 5px solid rgb(0, 0, 0);
+    flex: 1;
+}
+.your-conection{
+    border: 5px solid rgb(0, 0, 0);
+    flex: 1.5;
+}
+.profile > ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.profile > ul > li > a{
     text-decoration: none;
-
-}
-.b1 {
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    color: #fafafa;
-
-}
-.active {
-    color: #ffffff;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-
-}
-.btn {
-    margin: 20px;
-    height: 35px;
-    width: 200px;
-    background-color:#313eb4;
+    margin: 10px 20px;
     color: white;
-    border: 2px solid black;
-    box-shadow: 4px 5px 5px black;
-    
 }
 
+.title{
+    font-size: 1.5rem;
+}
+.button{
+    cursor: pointer;
+    color: white;
+    background-color: #26a5bb;
+    border:1px solid black;
+    height: 25px;
+    width: 80px;
+}
+.card, .education, .connection-request, .your-conection{
+    margin: 20px 10px;
+}
+.connection-request{
+    background-color: azure;
+}
+.top-nav{
+    height: 40px;
+    background-color: #26a5bb;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.number-2{
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(134, 252, 155);
+    display: flex;
+    justify-content: center;
+}
+.top-title{
+    color: white;
+    margin-left:15px;
+}
+.icons-small > img{
+    border-radius: 50%;
+    width: 25px;
+}
+.content-1{
+    display: flex;
+    justify-content: space-between;
+}
+.border-image{
+    border:1px solid black;
+}
+.number-500{
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(126, 255, 186);
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    flex: 2;
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;
+}
+.content-top-side{
+    height: 70px;
+    background-color: #17a2b8;
+}
+.icon-card{
+    position: absolute;
+    top: 5px;
