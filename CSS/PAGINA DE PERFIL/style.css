@@ -89,7 +89,7 @@ nav{
 .number-2{
     width: 20px;
     border-radius: 50%;
-    background-color: rgb(134, 252, 155);
+    background-color: rgb();
     display: flex;
     justify-content: center;
 }
@@ -111,7 +111,7 @@ nav{
 .number-500{
     width: 70px;
     border-radius: 50%;
-    background-color: rgb(126, 255, 186);
+    background-color: rgb(112, 110, 112);
     display: flex;
     justify-content: center;
 
