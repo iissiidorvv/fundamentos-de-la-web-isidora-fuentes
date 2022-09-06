@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contactame">Contactame</a>
+        </nav>
+    </header>
+
+    <section class="inicio">
+
+        <h1 class="ti">PORTAFOLIO</h1>
+        <p class="su1"> Bienvenido a mi portafolio aqui sabras quien soy y cual es mi area especializada.</p>
+
+    </section>
+
+    <section class="sobre-mi">
+    <div class="sobre-mi2">
+            <h1>SOBRE MI</h1>
+            <img src="img/perfil.jpeg" alt="perfil" width="180">
+            <h1>Escarlet Orellana</h1>
+            <h3>Futura programadora en HTML, CSS, JS y PYTHON</h3>
+            <p>Tengo 17 años de edad, estudio en la escuela arturo matte larrain en la especialidad de técnico en programación cumputacional. 
+                Que les puedo decir es una de mis pasiones la programación y sobre todo por el lado de programación y base de datos, 
+                me gusta diseñar sitios web, me gustar arreglar equipos y sobre todo me gusta experimentar con software nuevos.  
+                Uno de mis hobibis que más me apasiona es leer novelas de fantasía, distopia y sobre todo del género romántico. </p>
+                <table style="redes">
+                  <tr>
+                    <td class="red"><a href="https://www.instagram.com/http.escarlet/"><img src="https://cdn.icon-icons.com/icons2/2973/PNG/512/instagram_logo_icon_186929.png" alt="Instagram" style="width: 50px;"></a></td>
+                    <td class="red"><a href="https://github.com/escarlet17"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="gibthub" style="width: 50px;"></a></td>
+                    <td class="red"><a href="https://www.facebook.com/escarlet.orellana"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="facebook" style="width: 50px;"></a></td>
+                  </tr>
+                </table>
+    </section>
+    <section class="proyectos">
+      <h1 class="ti2">Proyectos</h1>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img/pacman.png" style="width:100%">
+              <div class="text">Proyecto 1</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img/aireplane.png"style="width:100%">
+              <div class="text">Proyecto 2</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img/goku.png" style="width:100%">
+              <div class="text">Proyecto 3</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+    </section>
+    <section class="contactame">
+        <div class="formulario">
+        <h4>Contactame</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su correo">
+        <textarea name="mensaje" placeholder="Deja un mensaje"></textarea>
+        <input class="botons" type="submit" value="enviar">
+        </div>
+    </section>
+</body>
+</html>
