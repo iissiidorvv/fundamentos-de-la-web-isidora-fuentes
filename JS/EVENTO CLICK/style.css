@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box; 
+}
+
+@font-face {
+    font-family: 'ppp';
+    src: url(comic_sans_ms/comic.ttf);
+}
+
+body{
+    background-color: azure;
+    font-family: 'ppp';
+    
+}
+nav{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.navbar{
+    background-color: #8c8c8c;
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.main{
+    width: 700px;
+    margin: 40px auto;
+    height: 500px;
+    display: flex;
+}
+.tittle{
+    font-family: ppp;
+    font-size: 30px;
+    border: none;
+}
+.col-1{
+    flex: 1.7;
+    display: flex;
+    flex-direction: column;
+}
+.col-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.education{
+    flex: 1;
+    border: 3px solid rgb(0, 0, 0);
+}
+.education > .content {
+    margin: 5px;
+}
+.connection-request{
+    border: 3px solid rgb(0, 0, 0);
+    flex: 1;
+}
+.connection-request-2{
+    border: 3px solid white;
+    flex: 1;
+}
+.profile > ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.title{
+    font-size: 1.5rem;
+}
+.boton-3 {
+ margin: 20px;
+height: 35px;
+ width: 200px;
+background-color:rgb(54, 54, 199);
+ color: white;
+ border: 2px solid  black;
+box-shadow: 4px 5px 5px black;
+    
+}
+
+.card, .education, .connection-request, .your-conection{
+    margin: 20px 10px;
+}
+.connection-request{
+    background-color: azure;
+}
+.top-nav{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    color: white;
+}
+
+.number-2{
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(112, 110, 112);
+    display: flex;
+    justify-content: center;
+    
+}
+.top-tittle{
+    color: black;
+    font-family: ppp;
+    font-size: 30px;
+    border: none;
+}
+.content-1{
+    display: flex;
+    justify-content: space-between;
+}
+.border-image{
+    border:1px solid black;
+}
+.number-500{
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(112, 110, 112);
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    flex: 2;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+}
+
+.icon-card {
+     position: absolute;
+     top: 5px;
+}
+.btn2{
+    margin: 20px;
+    height: 35px;
+    width: 200px;
+    background-color: #fef5ac;
+    color: black;
+    border: 2px solid  black;
+    box-shadow: 4px 5px 5px black;
+}
