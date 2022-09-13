@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: azure;
+    background-color: white;
     font-family: 'ppp';
     
 }
@@ -71,7 +71,7 @@ nav{
 .title{
     font-size: 1.5rem;
 }
-.boton-3 {
+.logOut {
  margin: 20px;
 height: 35px;
  width: 200px;
@@ -86,7 +86,7 @@ box-shadow: 4px 5px 5px black;
     margin: 20px 10px;
 }
 .connection-request{
-    background-color: azure;
+    background-color: white;
 }
 .top-nav{
     height: 40px;
@@ -109,6 +109,7 @@ box-shadow: 4px 5px 5px black;
     font-family: ppp;
     font-size: 30px;
     border: none;
+
 }
 .content-1{
     display: flex;
@@ -126,21 +127,41 @@ box-shadow: 4px 5px 5px black;
 
 }
 .card{
-    flex: 2;
+    flex: 3;
     border: 3px solid rgb(0, 0, 0);
     position: relative;
 }
 
-.icon-card {
-     position: absolute;
-     top: 5px;
-}
 .btn2{
     margin: 20px;
     height: 35px;
     width: 200px;
-    background-color: #fef5ac;
+    background-color: #FFCB42;
     color: black;
     border: 2px solid  black;
     box-shadow: 4px 5px 5px black;
+    font-weight: bolder;
 }
+.small{
+    color: black;
+    font-family: ppp;
+    font-size: 30px;
+}
+.btn3{
+    margin: 20px;
+    height: 35px;
+    width: 200px;
+    background-color: #90B77D;
+    color: black;
+    border: 2px solid  black;
+    box-shadow: 4px 5px 5px black;
+    font-weight: bolder;
+}
+.first-letter{
+    color: black;
+    font-family: ppp;
+    font-size: 20px;
+    border: none;
+    font-style: italic;
+}
+
